@@ -44,8 +44,18 @@ ul li{
   <li><a href="#" class="fa fa-linkedin"></a></li>
   </ul>
 
+      <div>
+          <h5>Team Members:</h5>
+          <p>Pranava Raman BMS</p>
+          <a href="mailto:bmspr1502@gmail.com" >bmspr1502@gmail.com</a>
+          <p>KID = K!20213116</p>
+            <br>
+          <p>Preeti Krishnaveni Ra</p>
+          <a href="mailto:preetikrishnaveni19@gmail.com" >preetikrishnaveni19@gmail.com</a>
+          <p>KID = K!20214530</p>
+      </div>
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="#"> connection.com</a>
+    <a href="#"> DIGITALINDIA.com</a>
   </div>
   <!-- Footer Elements -->
 </div>
