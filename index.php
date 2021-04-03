@@ -27,7 +27,7 @@
 
 
       <div class='row'>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-6 mt-3">
               <div class="card  p-4 " style="background:#ff6666">
                   <h2>Digital Infrastructure as a Core Utility to Every Citizen</h2>
 
@@ -40,20 +40,9 @@
                   </ul>
               </div>
           </div>
-          <div class="col-md-4 mt-3">
-              <div class="card p-4 " style="background:#ff6666">
-                  <h2>Governance & Services on Demand</h2>
-                  <ul class="list-group">
-                      <li class="list-group-item">Seamlessly integrated services across departments or jurisdictions</li>
-                      <li class="list-group-item">Availability of services in real time from online & mobile platforms</li>
-                      <li class="list-group-item">All citizen entitlements to be portable and available on the cloud</li>
-                      <li class="list-group-item">Digitally transformed services for improving ease of doing business</li>
-                      <li class="list-group-item">Making financial transactions electronic & cashless</li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-md-4 mt-3">
-              <img class="img-fluid" src="img/digidraw.jpg">
+
+          <div class="col-md-6 mt-3">
+              <img class="img-fluid" src="img/img4.webp">
           </div>
       </div>
   </div>
