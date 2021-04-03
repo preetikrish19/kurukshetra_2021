@@ -10,74 +10,31 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        .col-md-6 :hover{
-            background-color: #ff4dff
-        }
-        #myBtn{
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            border: none;
-            padding: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background: #FF9671">
+<body style="background-color:  #bf80ff">
 <nav class="navbar navbar-inverse bg-dark navbar-dark">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Digital India</a>
       </div>
       <ul style="display: inline" class="nav navbar-nav navbar-right">
-        <a href="#"><li style="display: inline; margin-right:3vh;">Home</li></a>
-        <a href="#"><li style="display: inline; margin-right:3vh;">Our Vision</li></a>
-        <a href="#"><li style="display: inline; margin-right:3vh;">Management</li></a>
+          <a href="index.php"><li style="display: inline; margin-right:3vh;">Home</li></a>
+          <a href="vision.php"><li style="display: inline; margin-right:3vh;">Our Vision</li></a>
+          <a href="management.php"><li style="display: inline; margin-right:3vh;">Management</li></a>
       </ul>
     </div>
   </nav>
+<?php include('carousel.php') ?>
     <div class='container'>
-    
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-    
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active" >
-            <img class='img-fluid' src="img/main.jpg" alt="Los Angeles" style="max-height 300px;">
-            </div>
-            <div class="carousel-item">
-            <img class='img-fluid' src="img/1-21.jpg" alt="Chicago" style="max-height 300px;">
-            </div>
-            <div class="carousel-item">
-            <img class='img-fluid' src="img/draw.jpg" alt="New York" style="max-height 300px;">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-
-        </div>
 
         <div >
        
 
             <div class='row'>
                 <div class="col-md-4 mt-3">
-                    <div class="card  p-4 " style="background:#4B4453">
+                    <div class="card  p-4 " style="background:#ff6666">
                         <h2>Digital Infrastructure as a Core Utility to Every Citizen</h2>
 
                         <ul class="list-group">
@@ -90,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card p-4 " style="background:#4B4453">
+                    <div class="card p-4 " style="background:#ff6666">
                         <h2>Governance & Services on Demand</h2>
                         <ul class="list-group">
                             <li class="list-group-item">Seamlessly integrated services across departments or jurisdictions</li>
@@ -102,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card p-4 " style="background:#4B4453" >
+                    <div class="card p-4 " style="background:#ff6666" >
                         <h2>Digital Empowerment of Citizens
                         </h2>
                         <ul class="list-group">
@@ -122,20 +79,7 @@
     <?php include('footer.php') ?>
 
 <button onclick="topFunction()" id="myBtn" class="btn btn-danger"  title="Go to top"><i class="fa fa-arrow-up"></i></button>
-<script>
-    var scrlbtn = document.getElementById("myBtn");
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            scrlbtn.style.display = "block";
-        } else {
-            scrlbtn.style.display = "none";
-        }
-    }
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+<script src="main.js">
 </script>
 </body>
 </html>
