@@ -20,6 +20,7 @@ h1, h4{
 
 ul li{
   display: inline;
+  margin-right: 2vh;
 }
 .fa{
   padding: 20px;
@@ -34,6 +35,8 @@ ul li{
   <!-- Footer Elements -->
   <div class="dabba">
     <!-- Social buttons -->
+  <h1>Digital India for a more Independent India</h1>
+  <h4>Contact Us</h4>
   <ul>
   <li><a href= '#' class="fa fa-facebook"></a></li>
   <li><a href="#" class="fa fa-instagram"></a></li>
