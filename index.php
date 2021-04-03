@@ -68,7 +68,7 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-<div >
+<div>
 
 
     <div class='row'>
@@ -100,6 +100,7 @@
     </div>
 
 </div>
+<br>
   <?php include('footer.php') ?>
   </body>
 </html>
