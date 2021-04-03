@@ -20,9 +20,9 @@
         <a class="navbar-brand" href="#">Digital India</a>
       </div>
       <ul style="display: inline" class="nav navbar-nav navbar-right">
-        <a href="#"><li style="display: inline; margin-right:3vh;">Home</li></a>
-        <a href="#"><li style="display: inline; margin-right:3vh;">Our Vision</li></a>
-        <a href="#"><li style="display: inline; margin-right:3vh;">Management</li></a>
+          <a href="index.php"><li style="display: inline; margin-right:3vh;">Home</li></a>
+          <a href="vision.php"><li style="display: inline; margin-right:3vh;">Our Vision</li></a>
+          <a href="management.php"><li style="display: inline; margin-right:3vh;">Management</li></a>
       </ul>
     </div>
   </nav>
@@ -79,20 +79,7 @@
     <?php include('footer.php') ?>
 
 <button onclick="topFunction()" id="myBtn" class="btn btn-danger"  title="Go to top"><i class="fa fa-arrow-up"></i></button>
-<script>
-    var scrlbtn = document.getElementById("myBtn");
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            scrlbtn.style.display = "block";
-        } else {
-            scrlbtn.style.display = "none";
-        }
-    }
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+<script src="main.js">
 </script>
 </body>
 </html>
