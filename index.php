@@ -9,7 +9,7 @@
     </style>
   </head>
   <body>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Digital India</a>
