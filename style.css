@@ -6,9 +6,6 @@ img {
     height: 60vh;
 }
 
-.col-md-6 :hover{
-    background-color: #ff4dff
-}
 #myBtn{
     display: none;
     position: fixed;
