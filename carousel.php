@@ -15,14 +15,14 @@
         <div class="carousel-item">
             <img src="img/main.jpg" alt="Chicago">
             <div class="carousel-caption">
-                <h3>Consultant | Counselor | Cheerleader</h3>
+                <h3 style="color: black;">Digital India Bright India</h3>
             </div>
         </div>
         <div class="carousel-item">
             <img src="img/wifi.jpg" alt="New York">
             <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
+                <h3>Wi Fi</h3>
+                <p>Connecting India</p>
             </div>
         </div>
     </div>

@@ -42,8 +42,7 @@
           </div>
 
           <div class="col-md-6 mt-3">
-              <img class="img-fluid" src="img/img4.webp">
-          </div>
+              <img class="img-fluid" style="height: 57vh" src="img/img4.webp">
       </div>
   </div>
   <?php include('footer.php') ?>
