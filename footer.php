@@ -32,9 +32,12 @@ ul li{
 </style>
 <footer class="footer" id="footer">
 
+
   <!-- Footer Elements -->
-  <div class="dabba">
+  <div class="dabba ">
     <!-- Social buttons -->
+      <div class="row">
+          <div class="col-md-6">
   <h1>Digital India for a more Independent India</h1>
   <h4>Contact Us</h4>
   <ul>
@@ -43,8 +46,9 @@ ul li{
   <li><a href="#" class="fa fa-twitter"></a></li>
   <li><a href="#" class="fa fa-linkedin"></a></li>
   </ul>
+          </div>
 
-      <div>
+      <div class="col-md-6">
           <h5>Team Members:</h5>
           <p>Pranava Raman BMS</p>
           <a href="mailto:bmspr1502@gmail.com" >bmspr1502@gmail.com</a>
@@ -54,9 +58,11 @@ ul li{
           <a href="mailto:preetikrishnaveni19@gmail.com" >preetikrishnaveni19@gmail.com</a>
           <p>KID = K!20214530</p>
       </div>
+      </div>
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
     <a href="#"> DIGITALINDIA.com</a>
   </div>
+
   <!-- Footer Elements -->
 </div>
   <!-- Copyright -->
