@@ -1,0 +1,21 @@
+img {
+    margin-right: 150px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 60vh;
+}
+
+.col-md-6 :hover{
+    background-color: #ff4dff
+}
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    padding: 15px;
+}
+
+
