@@ -10,6 +10,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .col-md-6 :hover{
+            background-color: #ff4dff
+        }
+        #myBtn{
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border: none;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body style="background: #FF9671">
@@ -107,5 +120,22 @@
 
 </div>
     <?php include('footer.php') ?>
+
+<button onclick="topFunction()" id="myBtn" class="btn btn-danger"  title="Go to top"><i class="fa fa-arrow-up"></i></button>
+<script>
+    var scrlbtn = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrlbtn.style.display = "block";
+        } else {
+            scrlbtn.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
 </html>
